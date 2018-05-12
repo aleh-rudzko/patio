@@ -81,7 +81,8 @@ class Equipment(models.Model):
     )
     name = models.CharField(max_length=200, verbose_name='Название')
     model = models.ForeignKey(Model, on_delete=models.CASCADE, verbose_name='Модель')
-    employee = models.ForeignKey(Employee, on_delete=models.SET_NULL, null=True, blank=True, verbose_name='Пользователь')
+    employee = models.ForeignKey(Employee, on_delete=models.SET_NULL, null=True, blank=True,
+                                 verbose_name='Пользователь')
     serial_number = models.CharField(max_length=200, verbose_name='Серийный номер')
     receipt_date = models.DateField(verbose_name='Дата поступления')
 

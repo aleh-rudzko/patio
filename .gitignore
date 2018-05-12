@@ -1,2 +1,6 @@
 .idea
 db.sqlite3
+package-lock.json
+*.pyc
+node_modules
+static/build

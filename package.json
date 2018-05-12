@@ -1,0 +1,37 @@
+{
+  "name": "patio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleh-rudzko/patio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleh-rudzko/patio/issues"
+  },
+  "homepage": "https://github.com/aleh-rudzko/patio#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react": "^16.3.14",
+    "@types/react-bootstrap": "^0.32.9",
+    "@types/react-dom": "^16.0.5",
+    "awesome-typescript-loader": "^5.0.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "gulp": "^3.9.1",
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3"
+  }
+}

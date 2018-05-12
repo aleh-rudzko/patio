@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'node_modules/bootstrap/dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css'  %}">
+
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+
+    {% block js %}
+        <script crossorigin src="{% static 'node_modules/react/umd/react.development.js' %}"></script>
+        <script crossorigin src="{% static 'node_modules/react-dom/umd/react-dom.development.js' %}"></script>
+        <script src="{% static 'build/bundle.js' %}"></script>
+    {% endblock %}
+</body>
+</html>
